@@ -74,7 +74,7 @@ function addExperimentalCube() {
     sceneObjects.push(mesh);
 }
 
-// movement - please calibrate these values
+
 var render = function(){
     requestAnimationFrame(render);
     
