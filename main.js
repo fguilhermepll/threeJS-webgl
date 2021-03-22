@@ -32,6 +32,7 @@ var carObj;
 function loadingObject(){
   loader.load( 'firetruck.glb', function ( gltf ) {
     carObj = gltf.scene;
+    carObj.position.y = -3;
     scene.add( gltf.scene );
     render();
   
